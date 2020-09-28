@@ -1,7 +1,7 @@
 # BreastCancerClassifier  
 
 
-## Summary 
+# Summary 
 
 In this project, we will explore the Breast Cancer Wisconsin (Original) Data Set, which can be found [here](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29). Our main objective will be to create a classifier to detect whether the cancer type is benign or malignant.  
 
