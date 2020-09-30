@@ -11,6 +11,10 @@ An RMarkdown (.Rmd) file is provided along with a pdf file which is the result o
 
 In this file, we will, very briefly, explored the data to see what is provided. There were no missing data nor data outside of the given range. Only the dependent variable (Class) needed to be re-coded, for convenience and the remaining attributes (possible predictors) were scaled on a scale of 1-10.  
 
+## breast_cancer_eda.Rmd  
+
+In this file, we explore the data further using plots and tables. We look over the distribution of the independent variables and the correlation among the variables. We note that the distribution for most of them is similar and as a result, in the correlation plot, we see that there is a high correlation among most of the independent variables. Also, we find that as the independent variables increase, it is more likely that the cancer type is malignant rather than benign. 
+
 # Acknowledgement  
 
 This breast cancer databases was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg.  
