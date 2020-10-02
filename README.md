@@ -21,7 +21,7 @@ In this file, we attempt to create the best model to most accurately predict res
 
 ### Logistic Classifier  
 
-For this model, we apply backward elimination and use AIC and p-values of covariates to pick the most optimal model. We also use k-fold cross-validation to pick the model with the highest accuracy. We find the best model is where we use 'Clump Thickness', 'Bland Chromatin', 'Bare Nuclei', 'Marginal Adhesion', 'Uniformity of Cell Shape' & 'Normal Nucleoli' to predict the type of cancer. We will use the same predictors for all the other classifiers. This model had the lowest accuracy but also had a relatively low standard deviation. See [summary table](###Summary-Table) for results.
+For this model, we apply backward elimination and use AIC and p-values of covariates to pick the most optimal model. We also use k-fold cross-validation to pick the model with the highest accuracy. We find the best model is where we use 'Clump Thickness', 'Bland Chromatin', 'Bare Nuclei', 'Marginal Adhesion', 'Uniformity of Cell Shape' & 'Normal Nucleoli' to predict the type of cancer. We will use the same predictors for all the other classifiers. This model had the lowest accuracy but also had a relatively low standard deviation. See [summary table](#Summary-Table) for results.
 
 The plot below depicts the effects of the predictors on the odds of having malignant cancer.  
 
@@ -30,19 +30,19 @@ The plot below depicts the effects of the predictors on the odds of having malig
 
 ### K-th Nearest Neighbor (KNN)
 
-For this model, we use the same predictors as the logistic classifier. We do not get a summary output, like the one for the logistic regression, for this model (or any other model) so we cannot visualize the results. We apply cross-validation on this model to pick the optimal k (# of neighbors the model looks at) to get the highest accuracy. The accuracy of this model was slightly higher than the logistic classifier. See [summary table](###Summary-Table) for results.
+For this model, we use the same predictors as the logistic classifier. We do not get a summary output, like the one for the logistic regression, for this model (or any other model) so we cannot visualize the results. We apply cross-validation on this model to pick the optimal k (# of neighbors the model looks at) to get the highest accuracy. The accuracy of this model was slightly higher than the logistic classifier. See [summary table](#Summary-Table) for results.
 
 ### Support Vector Machine (SVM) 
 
-For this model, we apply cross-validation to optimal kernel and value for C (Cost of constraint). For this model, we get an accuracy higher than the logistic regression & the lowest standard deviation for accuracy. See [summary table](###Summary-Table) for results. 
+For this model, we apply cross-validation to optimal kernel and value for C (Cost of constraint). For this model, we get an accuracy higher than the logistic regression & the lowest standard deviation for accuracy. See [summary table](#Summary-Table) for results. 
 
 ### Random Forest  
 
-For this model, we apply cross-validation to pick the optimal value of the variable 'number of splits at each node'. Also, we use the default value of trees (500). The accuracy of this model higher than the accuracy for logistic regression. See [summary table](###Summary-Table) for results.  
+For this model, we apply cross-validation to pick the optimal value of the variable 'number of splits at each node'. Also, we use the default value of trees (500). The accuracy of this model higher than the accuracy for logistic regression. See [summary table](#Summary-Table) for results.  
 
 
 ### Naive Bayes  
-For this model, we apply cross-validation to pick the optimal values of 'adjust' and 'fL' (Factor for Laplace Correction). For this model, we get the highest accuracy of the 5 models but also the second-highest standard deviation (quite close to the highest). See [summary table](###Summary-Table) for results.
+For this model, we apply cross-validation to pick the optimal values of 'adjust' and 'fL' (Factor for Laplace Correction). For this model, we get the highest accuracy of the 5 models but also the second-highest standard deviation (quite close to the highest). See [summary table](#Summary-Table) for results.
 
 ### Summary Table
 
