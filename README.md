@@ -25,6 +25,8 @@ For this model, we apply backward elimination and use AIC and p-values of covari
 
 The plot below depicts the effects of the predictors on the odds of having malignant cancer.  
 
+![Logistic Summary Plot](https://github.com/JasKainth/BreastCancerClassifier/blob/master/logistic_plot.jpg)
+
 
 ### K-th Nearest Neighbor (KNN)
 
@@ -45,6 +47,8 @@ For this model, we apply cross-validation to pick the optimal values of 'adjust'
 ### Summary Table
 
 Below is a table summarizing the accuracy and standard deviation of the accuracy for each model.
+
+![Summary Table](https://github.com/JasKainth/BreastCancerClassifier/blob/master/summary_table.png)
 
 # Acknowledgements 
 
